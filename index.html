@@ -29,6 +29,10 @@
 		<title>Welcome to Sekiro</title>
 	</head>
 	<body>
+		<div class="preloader">
+			<img src="./src/img/preload-anim.gif" alt="preload animation" class="preloader-anim" />
+		</div>
+
 		<div class="overflow-x-hidden">
 			<div class="container">
 				<div class="bg-main"></div>
@@ -118,4 +122,11 @@
 			</footer>
 		</div>
 	</body>
+	<script>
+		window.onload = function () {
+			document.querySelector('.preloader').style.opacity = '0';
+			document.querySelector('.preloader').style.visibility = 'hidden';
+			document.querySelector('body').style.overflowY = 'visible';
+		};
+	</script>
 </html>
