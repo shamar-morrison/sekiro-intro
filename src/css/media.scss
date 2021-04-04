@@ -1,0 +1,101 @@
+// -------------------- MEDIA QUERIES GO HERE -----------------------
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// iPhone 5/SE, idk why they have to be so specific
+@media (device-aspect-ratio: 40/71) {
+	.main-sub-title {
+		font-kerning: normal;
+		font-weight: 400;
+		min-width: 20%;
+		padding-top: 30px;
+		line-height: 1.5;
+		font-size: 1.125rem !important;
+		width: 80%;
+	}
+
+	.main-title {
+		width: 90% !important;
+	}
+
+	.feature {
+		.feature-title {
+			text-align: center;
+			margin-top: -100px;
+		}
+		.feature-text {
+			text-align: center;
+		}
+		.feature-gif {
+			width: 100%;
+		}
+	}
+	.mt-30 {
+		margin-top: 40px !important;
+	}
+}
+
+// Small devices (Portrait phones, 576px or less)
+@media (max-width: 576px) {
+	.overflow-x-hidden {
+		overflow-x: hidden !important;
+	}
+
+	.main-title {
+		width: 80%;
+		line-height: 55px;
+		font-weight: 800;
+		margin-top: 5vh;
+		font-size: 3rem;
+		letter-spacing: -2px;
+	}
+
+	.main-sub-title {
+		font-size: 1.225rem;
+		width: 80%;
+	}
+
+	.btn-main {
+		margin-bottom: 20px;
+	}
+
+	.main-img {
+		margin-top: 40px;
+		margin-bottom: 100px;
+		display: block;
+		width: 100%;
+	}
+
+	.feature {
+		.feature-title {
+			text-align: center;
+			margin-top: -100px;
+		}
+		.feature-text {
+			text-align: center;
+		}
+		.feature-gif {
+			width: 100%;
+		}
+	}
+	.mt-30 {
+		margin-top: 40px !important;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, between 768px and 991px)
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
